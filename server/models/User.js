@@ -20,7 +20,8 @@ const userSchema = mongoose.Schema({
         required: true
     },
     points: {
-        type: Number
+        type: Number,
+        min: 0
     },
     role: {
         type: String
